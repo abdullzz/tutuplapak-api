@@ -11,3 +11,8 @@ untuk deploy di heroku :
 5. npm i
 6. npm i json-server / kalo gabisa => / npm i json-server --registry https://registry.npmjs.org
 7. ubah package.json. tambahkan di dalam bagian key "scripts" dibawah key "test", yaitu "start": "node server.js"
+8. install heroku (kalo di mac pake brew => liat aja di web heroku nya)
+9. npm install -g heroku / kalo gabisa => / npm -g heroku --registry https://registry.npmjs.org
+10. heroku create tutuplapak-api
+11. git push heroku main
+12. coba buka link heroku dari poin 10
