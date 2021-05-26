@@ -5,6 +5,7 @@ tutorial:
 1. npm install -g json-server / kalo gabisa => / npm install -g json --registry https://registry.npmjs.org
 2. json-server db.json
 3. harusnya sampai sini sudah jalan di local
+
 ===============================================
 untuk deploy di heroku :
 4. npm init
