@@ -9,6 +9,7 @@ tutorial:
 ===============================================
 
 untuk deploy di heroku :
+
 4. npm init
 5. npm i
 6. npm i json-server / kalo gabisa => / npm i json-server --registry https://registry.npmjs.org
