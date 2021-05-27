@@ -42,8 +42,8 @@ func main() {
     // fmt.Printf("%+v", f)
 
 
-    fmt.Printf("%3s | %20s | %20s | %15s | %10s\n", "ID", "NAMA LAPAK", "NAMA PEMILIK", "NOMOR TELEFON", "MEMBERSHIP")
+    fmt.Printf("%3s | %20s | %20s | %15s | %10s | %15s |\n", "ID", "NAMA LAPAK", "NAMA PEMILIK", "NOMOR TELEFON", "MEMBERSHIP","KOTA")
     for _, i := range f{
-        fmt.Printf("%3d | %20s | %20s | %15s | %10s | %s\n", i.ID, i.NamaLapak, i.NamaPemilik, i.NomorTelefon, i.Membership, i.Alamat)
+        fmt.Printf("%3d | %20s | %20s | %15s | %10s | %15s |\n", i.ID, i.NamaLapak, i.NamaPemilik, i.NomorTelefon, i.Membership, i.Alamat[0].Kota)
     }
 }
